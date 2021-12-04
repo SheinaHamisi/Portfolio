@@ -1,0 +1,80 @@
+/* default css styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    position: relative;
+}
+
+/* hero section */
+#hero-section{
+    color: white;
+}
+
+/* name */
+#name{
+    font-size: 120px;
+    letter-spacing: 0.205em;
+    line-height: 120px;
+    font-weight: bold;
+}
+
+/* title */
+#title{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+/* explore button */
+.explore{
+    background-color: rgba(0, 0, 0, .0);
+    border: 1px solid white;
+    width: 50%;
+    height: 72px;
+    margin-top: 48px;
+    font-size: 32px;
+}
+
+.explore:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+/* background */
+#hero-container{
+    background-image: url("/IMAGES/background.gif");
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* overlay */
+#hero-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 0;
+}
+
+/* hero container children */
+#hero-container > *{
+    z-index: 10;
+    position: relative;
+}
+
+#about{
+    padding-top: 66px;
+    padding-bottom: 66px;
+    font-size: 28px;
+}
