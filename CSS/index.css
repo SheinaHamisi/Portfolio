@@ -77,9 +77,23 @@ body{
     padding-top: 66px;
     padding-bottom: 66px;
     font-size: 28px;
+    background-image: url(/IMAGES/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hobby{
     font-weight: 500;
     font-size: 36px;
+    line-height: 150%;
+}
+
+#hobby-parent{
+    border: solid black 1px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+    width: 50%;
 }
