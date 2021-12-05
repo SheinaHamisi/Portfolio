@@ -131,3 +131,10 @@ body{
     gap: 18px;
     justify-content: flex-end;
 }
+
+.btn-custom{
+    background-color: #F00073;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
