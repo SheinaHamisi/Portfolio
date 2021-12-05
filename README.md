@@ -1,5 +1,5 @@
-# Portfolio# {Application Name}
-#### {Brief description of application}, {Date of current version}
+# Portfolio website
+#### This is a website showcasing my portfolio containing previous project I have done., 5/12/2021
 #### By **Sheina Hamisi**
 ## Description
 This is a landing page showcasing projects that I have done at Moringa school. 
