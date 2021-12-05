@@ -97,3 +97,37 @@ body{
     box-sizing: content-box;
     width: 50%;
 }
+
+.projectlist{
+    margin-top: 72px;
+}
+
+.projectlist p{
+    margin-top: 48px;
+    font-size: 28px;
+    line-height: 166%;
+}
+
+.technologies{
+    font-size: 24px;
+    line-height: 166%;
+}
+
+#footer{
+    height: 130px;
+    background-color: #F5E7E6;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footertext{
+    display: flex;
+    align-items: center;
+}
+#socialicons{
+    display: flex;
+    gap: 18px;
+    justify-content: flex-end;
+}
